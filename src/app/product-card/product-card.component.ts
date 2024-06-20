@@ -5,9 +5,8 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './product-card.component.html',
-  styleUrl: './product-card.component.scss'
+  styleUrl: './product-card.component.scss',
 })
 export class ProductCardComponent {
-
-@Input() item:any="";
+  @Input() item: any = '';
 }
