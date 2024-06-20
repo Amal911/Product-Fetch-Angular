@@ -1,0 +1,8 @@
+<div class="container">
+  @for(category of categories; track category){
+  <div class="m-4">
+    <h4>{{ category.toUpperCase() }}</h4>
+    <app-product-carousel [products]="products" [category]="category" />
+  </div>
+  }
+</div>
